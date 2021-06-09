@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>FarmBuddy - Make Sense of the Chaos</title>
+
+		<link rel="stylesheet" href="/css/farmbuddy.css">
+
+		<script type="text/javascript" src="/js/farmbuddy.js"></script>
+	</head>
+	<body>
+		
+		<div class="container">
+
+			<header>
+				<h1>Farm Buddy</h1>
+
+				<nav>
+					<ul>
+						<li>
+							<img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=25"> 
+							Eric Harrison
+						
+							<ul class="hidden">
+								<li>Settings</li>
+								<li>Log Out</li>
+							</ul>
+						
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<menu>
+				<ul>
+					<li><a href="/">Dashboard</a></li>
+					<li><a href="/animals.html">Animals</a></li>
+					<li><a href="/crops.html">Crops</a></li>
+					<li><a href="/expenses.html">Expenses</a></li>
+				</ul>
+			</menu>
+
+			<section role="main" id="main">
+
+				<h2>Farm at a Glance</h2>
+
+				<div class="d-flex">
+				
+					<div id="animals" class="card">
+						<h3>Animals</h3>
+
+						<table>
+							<thead>
+								<tr>
+									<th>Animal</th>
+									<th>Count</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="/animals.html?filter=Hens">Hens</a></td>
+									<td>14</td>
+								</tr>
+								<tr>
+									<td><a href="/animals.html?filter=Roosters">Roosters</a></td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td><a href="/animals.html?filter=Pigs">Pigs</a></td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td><a href="/animals.html?filter=Donkey">Donkeys</a></td>
+									<td>1</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div id="crops" class="card">
+						<h3>Crops</h3>
+
+						<table>
+							<thead>
+								<tr>
+									<th>Plants</th>
+									<th>Count</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="/crops.html?filter=Cherry+Tomato">Cherry Tomato</a></td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Sandwich+Tomato">Sandwich Tomato</a></td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Cucumbers">Cucumbers</a></td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Ghost+Peppers">Ghost Peppers</a></td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Carolina+Reapers">Carolina Reapers</a></td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Jalapeno">Jalapeno</a></td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Bell+Peppers">Bell Peppers</a></td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td><a href="/crops.html?filter=Cabbage">Cabbage</a></td>
+									<td>12</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+
+					<div id="expenses" class="card">
+						<h3>Expenses</h3>
+
+						<h4 id="monthly_spending">$192.51</h4>
+
+						<table>
+							<thead>
+								<tr>
+									<th>Expense</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a href="/expenses.html?filter=Chicken+Food">Chicken Food</a>
+										<br>
+										<small>June 3rd, 2021</small>
+									</td>
+									<td>$76.09</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="/expenses.html?filter=Pig+Food">Pig Food</a>
+										<br>
+										<small>June 3rd, 2021</small>
+									</td>
+									<td>$116.42</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+				
+				</div>
+				
+
+			</section>
+
+			<footer>
+				Copyright &copy;2021 FarmBuddy
+			</footer>
+
+		</div>
+
+	</body>
+</html>
