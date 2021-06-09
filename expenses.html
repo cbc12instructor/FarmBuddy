@@ -46,15 +46,23 @@
 
 				<h2>Expense Reports</h2>
 
-				
+				<form>
+					<input type="date" id="dt" name="dt" placeholder="Date (YYYY-MM-DD)">
+
+					<input type="time" id="tm" name="tm" placeholder="Time (HH:MM)">
+				</form>
 
 
 			</section>
 
 			<footer>
-				Copyright &copy;2021 FarmBuddy
+				Copyright &copy;<strong id="date">1999</strong> FarmBuddy
 			</footer>
 
+			<script>
+				document.getElementById('date').innerHTML = new Date().getFullYear();
+			</script>
+			
 		</div>
 
 	</body>
